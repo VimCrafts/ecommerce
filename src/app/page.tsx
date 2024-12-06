@@ -1,6 +1,8 @@
-
+import Image from 'next/image';
+import Link from 'next/link'
+import Signup from './pages/sign-up/page';
 export default function Home() {
   return (
-    <h1>hello brev</h1>
+    <Signup/>
   );
 }
